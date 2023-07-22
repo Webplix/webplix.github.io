@@ -1,0 +1,304 @@
+html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        font-size: 15pt;
+        font-family: Lucida Fax;
+        overflow-x: hidden;
+    }
+
+    #cover-photo-logo {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        border: 0;
+        position: relative;
+    }
+
+    #footer {
+        height: auto;
+        background: #6BACBF;
+        text-align: center;
+    }
+
+    .footer-row {
+        margin: auto;
+        width: 90%;
+        display: flex;
+    }
+
+    .footer-column {
+        flex: 1;
+        padding: 1%;
+    }
+
+    .general-flexer-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general-flexer-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .general-flex-item {
+        flex: 1;
+    }
+
+    #pic-with-dark-bg {
+        background: #171717;
+        display: flex;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        border: 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .fixed-size-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    div {
+        margin: 0;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo-main-focus {
+        width: 60%;
+        height: auto;
+    }
+
+    .center-all {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+        .header1 {
+            font-size: 25px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .header1 {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .header2 {
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .header2 {
+            font-size: 30px;
+            font-weight: normal;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .header3 {
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .header3 {
+            font-size: 20px;
+            font-weight: normal;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .header4 {
+            font-size: 10px;
+            font-weight: normal;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .header4 {
+            font-size: 10px;
+            font-weight: normal;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #inquire-button {
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        #inquire-button {
+            font-size: 20px;
+        }
+    }
+
+    #inquire-button {
+        padding: 2%;
+        border-radius: 25px;
+        background: #044C6D;
+        color: white;
+        font-family: Lucida Fax;
+        cursor: pointer;
+    }
+
+    #inquire-button:hover {
+        background: black;
+        transition: 0.5s;
+    }
+
+    .center-h {
+        text-align: center;
+    }
+
+    #offers-area {
+        background: #EBF6F7;
+        padding: 1%;
+    }
+
+    .underline {
+        border: solid;
+        border-radius: 15px;
+        width: 60%;
+        margin-top: 0;
+    }
+
+    .not-full {
+        margin: auto;
+    }
+
+    .border-solid {
+        border: solid;
+    }
+
+    .thick {
+        font-weight: bold;
+    }
+
+    #more-info {
+        background: #044C6D;
+        color: white;
+        padding: 4%;
+    }
+
+    #additional-service {
+        background: #EBF6F7;
+        text-align: right;
+        padding: 4%;
+    }
+
+    .repair-logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .round-border {
+        border: solid;
+        border-radius: 30px;
+        padding: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        background: #044C6D;
+    }
+
+    .round-border:hover {
+        background-color: #EBF6F7;
+        color: black;
+        transition: 0.5s;
+    }
+
+    .chatbot-button:hover {
+        cursor: pointer;
+        filter: invert(100%);
+        transition: 0.5s;
+    }
+
+    .chatbot-button {
+        border-radius: 25px;
+        padding: 1%;
+        background: #fafafa;
+        color: black;
+        font-family: Lucida Fax;
+        margin: 1%;
+    }
+
+    input {
+        font-family: Lucida Fax;
+        width: 73%;
+        border-radius: 25px;
+        padding: 1%;
+        background: #fafafa;
+        color: black;
+    }
+
+    .cover-wide-button {
+        width: 80%;
+    }
+
+    #chatbotarea {
+        display: none;
+        padding: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        overflow-y: auto;
+    }
+
+    #ChatOutput {
+        padding: 2%;
+        width: 80%;
+        margin: auto;
+        line-height: 1.5;
+        overflow-y: scroll;
+        height: 30vh;
+        border: solid;
+        border-radius: 25px;
+    }
+	
+	a {
+	color: #1E90FF;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+	
+	.no-design-a {
+        text-decoration: none;
+    }
+	
+	ul {
+	margin:0;
+	color:black;
+	clear: both;
+	}
+	.user {
+      color: #00b840;
+    }
+
+    .bot {
+      color: #8a04d1;
+    }
