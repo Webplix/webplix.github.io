@@ -9,7 +9,7 @@ var speedInterval = 2.5;
     var UserChat;
     var Input;
     var answer = [];
-    answer[0] = "Good day, what is your name and how can i help you?";
+    answer[0] = "Good day, how can i help you?";
     var random_array = answer[0];
     var unspacedmatchedInput = [];
     for (let o = 0; o < matchedInput.length; o++) {
