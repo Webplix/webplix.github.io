@@ -22,8 +22,8 @@
                 let equivalentResponseSubArrayLength = equivalentResponse[i];
                 let randomResponse = Math.floor(Math.random() * equivalentResponseSubArrayLength.length);
                 answer[0] = equivalentResponse[i][randomResponse];
-                console.log("Matched Number: " + i + " >> " + matchedInput[i]);
-                console.log("Sub Number: " + randomResponse + " >> " + equivalentResponse[i][randomResponse]);
+                //console.log("Matched Number: " + i + " >> " + matchedInput[i]);
+                //console.log("Sub Number: " + randomResponse + " >> " + equivalentResponse[i][randomResponse]);
                 unknownResponse = false;
                 break;
             }
