@@ -1,5 +1,19 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var matchedInput = [
+    "why github",
+    "github",
+    "where this host|where this upload|where webplix host|where webplix upload|this upload where|this host where|webplix upload where|webplix host where",
+    "who c e o",
+    "who developer|who representative",
+
+    "tutor international|teach international",
+    "why tutor",
+    "why go",
+    "tutor go|go tutor",
+    "sub compan",
+    "webplix tutor",
+    "webplix go",
+
     "who own you|who creat you|who made you",
     "who founder|who create webplix|who own webplix|weplix founder|webplix creat|webplix ceo|ceo webplix|founder webplix",
     "khian victory|khian calderon",
@@ -44,6 +58,7 @@ var matchedInput = [
     "about us|contac us",
     "privacy policy",
 
+    "can answer",
     "can you|what is|who are|where is|when is",
     "additional service|more service|other service",
     "next step|web project|after web then",
@@ -61,4 +76,5 @@ var matchedInput = [
     "ok|thank|yes|yep|yeah",
     "no|don t|did n t|does n t",
     "really|why|where|who|what|when|how",
+    "question|ask",
 ];
