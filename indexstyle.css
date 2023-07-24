@@ -155,12 +155,14 @@ html {
     }
 
     #inquire-button {
-        padding: 2%;
+		line-height:3;
+		border:solid;
+        padding: 3%;
         border-radius: 25px;
         background: #044C6D;
         color: white;
-        font-family: Lucida Fax;
         cursor: pointer;
+		text-decoration:none;
     }
 
     #inquire-button:hover {
@@ -173,8 +175,9 @@ html {
     }
 
     #offers-area {
-        background: #EBF6F7;
+        background: #044C6D;
         padding: 1%;
+		color:white;
     }
 
     .underline {
@@ -302,3 +305,30 @@ html {
     .bot {
       color: #8a04d1;
     }
+	
+	#sub-company {
+		background:#EBF6F7;
+		color:black;
+		padding:2%;
+	}
+	
+	.design-box {
+		border:solid;
+		border-radius:25px;
+		border-width:5px;
+		margin:2%;
+	}
+	
+	.sub-companies-a {
+		color:black;
+		text-decoration:none;
+		margin:auto;
+		text-align:center;
+		width:50%;
+	}
+	
+	.design-box:hover {
+		color:white;
+		background:#044C6D;
+		transition:0.5s;
+	}
