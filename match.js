@@ -1,12 +1,15 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var matchedInput = [
+    "permit|permission|legal",
+    "bot feature|feature bot",
+    "why bot",
     "why github",
     "github",
     "where this host|where this upload|where webplix host|where webplix upload|this upload where|this host where|webplix upload where|webplix host where",
-    "who c e o",
+    "who ceo|who chief executive officer",
     "who developer|who representative",
 
-    "tutor international|teach international",
+    "international",
     "why tutor",
     "why go",
     "tutor go|go tutor",
@@ -50,7 +53,7 @@ var matchedInput = [
     "web ample|ample web",
     "how much|cost",
     "what process|how develop|how website|how work",
-    "how inquire|inquire how",
+    "how inquire|inquire how|how avail|where avail",
     "how contact inquiries|how contac support",
     "service offer|feature offer|feature service",
     "faq|what ask|what question|which ask",
