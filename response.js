@@ -80,6 +80,7 @@ var equivalentResponse = [
     ["Glad to help, should you have concern about our business, feel free to ask","I'm glad i can help, do you still have question? you can still ask if you want","That's great, do not hestitate to ask if you still have question","I hope you like using our service, have a nice day! feel free to ask if you still have concern"],
     ["It's fine, how can i help you? If you still have question, let me know :)"],
     ["I'm sorry, but i am not able to understand follow up questions or the question you previously asked, however you may ask a direct question with complete sentence in it or another question so i can provide more accurate answer"],
+    ["Sure, i will try my best to help you about your concern","Certainly, i will try to assist you if you have a question"],
 ];
 
 /*
