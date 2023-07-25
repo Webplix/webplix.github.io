@@ -1,12 +1,15 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var equivalentResponse = [
+    ["As legality in this business is a sensitive topic, i am not allowed to answer questions regarding business legalities, you may ask at our [a href='" + facebookPage + "']facebook page[/a]"],
+    ["Our chatbot at Webplix features the following criteria: [ul] [li]Ability to answer multiple questions[/li] [li]Ability to give different answers for the same questions[/li] [li]Ability to generate answer in sentence or HTML form[/li] [li]Ability to solve basic math numbers[/li] [li]Ability to give extended answer for misunderstood question[/li] [/ul]"],
+    ["By using our chatbot, your business gains the advantage of 24/7 availability and responsiveness, providing prompt answers to frequently asked questions, even outside of regular business hours when a human businessman may not be available. This ensures enhanced customer satisfaction, reduced waiting times, and valuable insights for your business [br][br] Moreover, the chatbot's capabilities allow you to save on the costs of hiring additional human staff to answer customer questions, making it a cost-effective solution. This efficiency enables your business to allocate resources more effectively, focusing on core operations and growth while still providing exceptional customer support [br][br] In conclusion, our chatbot offers a comprehensive and valuable solution for your business, ensuring your customers receive swift, accurate, and consistent support while optimizing your operational costs and enhancing your competitive edge"],
     ["Github offers free web hosting. This website is hosted at github because it is free"],
     ["GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere"],
     ["Webplix is currently uploaded / hosted on GitHub"],
     ["The CEO of Webplix is Khian Victory Calderon"],
     ["The current developer and representative at Webplix is the CEO himself as of july 2023"],
 
-    ["Yes! Webplix Tutor accepts and teach international clients. Webplix also accepts international clients"],
+    ["Yes! Webplix and its sub companies accepts international clients"],
     ["Webplix Tutor focuses on teaching programming. At Webplix Tutor, we make sure that clients have understand the basic fundamentals of programming and we are committed in improving our teaching method"],
     ["Webplix Go focuses on making programming projects and commissions. At Webplix Go, developer directly interacts with clients which gives them full control of their output"],
     ["Webplix Tutor and Webplix Go are both sub companies of webplix.[br] Ask the following for more details: [ul] [li][b][u]What is Webplix Tutor?[/u][/b][/li] [li][b][u]What is Webplix Go?[/u][/b][/li][/ul]"],
@@ -59,13 +62,11 @@ var equivalentResponse = [
     ["At Webplix, we prioritize your privacy and security. We want to assure you that we do not collect any personal data or sensitive information from our users while using our website. We do not use cookies or tracking mechanisms that can identify you individually. Rest assured that any information you browse or interact with on our website remains completely anonymous and confidential. Your privacy is of utmost importance to us, and we do not share or use any data for marketing purposes or third-party activities. Additionally, we advise users not to enter any sensitive information on our website to further safeguard their privacy. If you have any questions or concerns about our privacy practices, please don't hesitate to contact us"],
 
     ["Feel free to ask any questions","No worries, i will try my best to answer your questions"],
-    ["I'm sorry but i do not know what you are talking about","I'm sorry but i do not have an answer for that question"],
     ["Webplix offers other services such as: fix errors and glitches as soon as possible we detect it in our client's website, change or update websites upon the client's request, request to fix website, and direct communication with developer"],
     ["After contacting us on our facebook page, we will notify our clients as soon as possible about their websites. After all, communication is the key"],
     ["I'm sorry but i do not know such person or anything associated with what you said"],
     ["Our service includes maintenance of websites of our clients, as a result, there is a separate fee that needs to be paid monthly for the chatbots to function properly. Failure to pay may result in taken down of the custom made chatbot. However, there is another fee such as update fee, etc... You may ask to our facebook page for more details or ask me again of what are the different fees to pay"],
     ["I'm sorry for your experience, feel free to message our facebook page about your complain and we will use it to improve our service"],
-    ["Hello, how can i help you?","Hello, what can i do for you?","What a beautiful name, what can i do for you?","Okay, how can i help you?","Wonderful name, what is your question?"],
     ["If you have feedback, suggestion, or recommendation for improvement, feel free to message our facebook page"],
 
     ["Webplix is a company based on Philippines that makes websites and chatbot"],
