@@ -31,7 +31,7 @@ function getAnswer() {
 function send_and_write() {
     Input = document.getElementById("chatbox").value;
     if (!Input.trim() == "" && finishedOutput) {
-        UserChat = "<br><br><a class='no-design-a user'><b>You</b>:</a> " + Input;
+        UserChat = "<br><a class='no-design-a user'><b>You</b>:</a> " + Input;
         document.getElementById("ChatOutput").innerHTML += UserChat;
         OutPut();
         document.getElementById("chatbox").value = "";
@@ -41,7 +41,7 @@ function send_and_write() {
 function fixed_send_and_write(x) {
     Input = x;
     if (!Input.trim() == "" && finishedOutput) {
-        UserChat = "<br><br><a class='no-design-a user'><b>You</b>:</a> " + Input;
+        UserChat = "<br><a class='no-design-a user'><b>You</b>:</a> " + Input;
         document.getElementById("ChatOutput").innerHTML += UserChat;
         OutPut();
         document.getElementById("chatbox").value = "";
