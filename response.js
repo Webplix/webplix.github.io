@@ -1,5 +1,6 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var equivalentResponse = [
+    ["I can answer questions that you asked, feel free to ask"],
     ["I process user input or message and analyze it so i can respond with correct answer"],
     ["Chatbots are computer programs designed to interact with users through natural language, typically in a conversational manner. They are a form of artificial intelligence (AI) that simulates human-like conversations and can be used to provide information, answer questions, complete tasks, and assist users in various applications"],
     ["As legality in this business is a sensitive topic, i am not allowed to answer questions regarding business legalities, you may ask at our [a href='" + facebookPage + "']facebook page[/a]"],
