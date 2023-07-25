@@ -1,5 +1,6 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var matchedInput = [
+    "what you do for me",
     "how you process",
     "what chat bot|bot purpose|purpose bot",
     "permit|permission|legal",
