@@ -1,5 +1,7 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var matchedInput = [
+    "how you process",
+    "what chat bot|bot purpose|purpose bot",
     "permit|permission|legal",
     "bot feature|feature bot",
     "why bot",
@@ -62,13 +64,11 @@ var matchedInput = [
     "privacy policy",
 
     "can answer",
-    "can you|what is|who are|where is|when is",
     "additional service|more service|other service",
     "next step|web project|after web then",
     "do you know|who s",
     "maintenance|maintaining",
     "complain",
-    "name|i'm|i am",
     "feedback|recommend|suggestion|improvement",
 
     "webplix",
