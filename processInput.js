@@ -1,5 +1,3 @@
-var multipleQuestion = false;
-
 document.addEventListener("keypress", function (event) {
     if (event.keyCode == 13) {
         send_and_write();
@@ -8,14 +6,15 @@ document.addEventListener("keypress", function (event) {
 
 function getAnswer() {
     unknownResponse = true;
-    var FilteredInput = Input.toLowerCase().replace(/[?!<>"'&$#@/]/gi, "");
     // output
     for (var i = 0; i < matchedInput.length; i++) {
         // searching for output using input with unspace
         if (Input.toLowerCase().match((unspacedmatchedInput[i]))) { // if response match the arrays
             let equivalentResponseSubArrayLength = equivalentResponse[i];
             let randomResponse = Math.floor(Math.random() * equivalentResponseSubArrayLength.length);
-            answer[0] = equivalentResponse[i][randomResponse] += ".";
+            // console.log("Matched Input: " + i);
+            // console.log("Output: " + randomResponse);
+            answer[0] = equivalentResponse[i][randomResponse];
             unknownResponse = false;
             break;
         }
