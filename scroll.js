@@ -1,7 +1,8 @@
+    /*
     function smoothScroll(event) {
       event.preventDefault(); // Prevent the default link behavior
 
-      var targetDiv = document.getElementById(event.target.hash.substring(1)); // Get the target div
+      var targetDiv = document.getElementById("chatbot"); // Get the target div
       if (targetDiv) {
         var offsetTop = targetDiv.getBoundingClientRect().top;
         var scrollDistance = window.pageYOffset + offsetTop;
@@ -14,7 +15,7 @@
           });
         }, 100);
       }
-    }
+    } */
 	
 	function scrollToBottom() {
         const xbt = document.getElementById("ChatOutput");
