@@ -1,9 +1,10 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var matchedInput = [
+    "why website|purpose website|website purpose",
     "what you do for me",
     "how you process",
     "what chat bot|bot purpose|purpose bot",
-    "permit|permission|legal",
+    "permit|permission|legal|where document|what document|why document|when document",
     "bot feature|feature bot",
     "why bot",
     "why github",
@@ -11,6 +12,10 @@ var matchedInput = [
     "where this host|where this upload|where webplix host|where webplix upload|this upload where|this host where|webplix upload where|webplix host where",
     "who ceo|who chief executive officer",
     "who developer|who representative",
+
+    "register dti|dti register|register department trade industry|department trade industry register",
+    "dti web|web dti|department trade industry",
+    "for my business",
 
     "international",
     "why tutor",
@@ -29,6 +34,7 @@ var matchedInput = [
     "domain free|free domain",
 
     "web kind|kind web|which web|web which",
+    "what website",
     "kind question|question kind",
     "comany hour|hour company|business hour|hour business|when avail|when can i",
     "where lucena|lucena locat|locat lucena",
@@ -72,7 +78,9 @@ var matchedInput = [
     "complain",
     "feedback|recommend|suggestion|improvement",
 
+    "webplix full name|webplix formal name|webplix register name|webplix name register|name register webplix|register name webplix",
     "webplix",
+    "where register",
     "wow|amazing|amaze|speechless|fantastic",
     "good night",
     "hello|hi|good morning|good afternoon|good evening",
