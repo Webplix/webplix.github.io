@@ -1,5 +1,6 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var equivalentResponse = [
+    ["Having a website is essential for you as a business owner because it establishes a strong online presence, making it easier for potential customers to find and connect with your products or services. Additionally, a well-designed website builds credibility and trust among users, showcasing your professionalism and commitment to your business. It also allows you to provide essential information about your offerings, promotions, and contact details, thus increasing customer engagement and driving sales. Furthermore, a website offers a platform to showcase your brand's unique identity, differentiating you from competitors and leaving a lasting impression on visitors. With the convenience of an online platform, you can extend your reach beyond local boundaries and tap into a global market, opening up new growth opportunities for your business"],
     ["I can answer questions that you asked, feel free to ask"],
     ["I process user input or message and analyze it so i can respond with correct answer"],
     ["Chatbots are computer programs designed to interact with users through natural language, typically in a conversational manner. They are a form of artificial intelligence (AI) that simulates human-like conversations and can be used to provide information, answer questions, complete tasks, and assist users in various applications"],
@@ -11,6 +12,10 @@ var equivalentResponse = [
     ["Webplix is currently uploaded / hosted on GitHub"],
     ["The CEO of Webplix is Khian Victory Calderon"],
     ["The current developer and representative at Webplix is the CEO himself as of july 2023"],
+
+    ["Yes! We are registered in DTI Phlippines, you may search for business name in their official website"],
+    ["DTI official website is [a href='https://bnrs.dti.gov.ph/search']DTI Official Website[/a](Business Name Search)"],
+    ["We make websites or chatbots for any kind of business, small or large businesses"],
 
     ["Yes! Webplix and its sub companies accepts international clients"],
     ["Webplix Tutor focuses on teaching programming. At Webplix Tutor, we make sure that clients have understand the basic fundamentals of programming and we are committed in improving our teaching method"],
@@ -29,6 +34,7 @@ var equivalentResponse = [
     ["There is no such thing as free domain, a domain needs to be registered because it consumes power, different domains have different costs"],
 
     ["Webplix makes various kinds of websites. We make website that aligns with our client's interest whether is for business, commercial, personal, entertainment, etc... website"],
+    ["A website is a collection of web pages hosted on the internet, accessible through a web browser, where individuals, businesses, and organizations display information, offer products or services, and engage with online audiences. It has a unique domain name, interconnected web pages with hyperlinks, and is hosted on servers to be available online. Websites can have various functionalities, designs, and layouts, and they serve essential purposes like providing information, facilitating communication, and building an online presence"],
     ["I answer different business questions, enter FAQ for more details"],
     ["Our business/company is available 24/7 depending on the availability of our developer/s since we are working from different or remote location and we do not have a physical office location"],
     ["Lucena City is located in Quezon Province Philippines"],
@@ -72,14 +78,16 @@ var equivalentResponse = [
     ["I'm sorry for your experience, feel free to message our facebook page about your complain and we will use it to improve our service"],
     ["If you have feedback, suggestion, or recommendation for improvement, feel free to message our facebook page"],
 
-    ["Webplix is a company based on Philippines that makes websites and chatbot"],
+    ["Webplix's formal and registered name is [b]Webplix Web Development Services[/b]"],
+    ["Webplix [b](formally registered as [u]Webplix Web Development Services[/u])[/b] is a company based on Philippines that makes websites and chatbot"],
+    ["Webplix [b](formally registered as [u]Webplix Web Development Services[/u])[/b] is registered a DTI Philippines. You may search in DTI official website for business names"],
     ["Thank you, if you have concern or question, don't hestitate to ask"],
     ["Have a nice day!, if you have question feel free to ask"],
     ["Hello there, how can i help you?","Hi there, what can i do for you?"],
     ["I only answer business inquiries or business questions but i will still try my best to assist you"],
     ["Glad to help, should you have concern about our business, feel free to ask","I'm glad i can help, do you still have question? you can still ask if you want","That's great, do not hestitate to ask if you still have question","I hope you like using our service, have a nice day! feel free to ask if you still have concern"],
     ["It's fine, how can i help you? If you still have question, let me know :)"],
-    ["I'm sorry, but i am not able to understand follow up questions or the question you previously asked, however you may ask a direct question with complete sentence in it or another question so i can provide more accurate answer"],
+    ["I'm sorry, but i am not able to understand follow up questions or the question you previously asked, however you may ask another simple question so i can provide more accurate answer"],
     ["Sure, i will try my best to help you about your concern","Certainly, i will try to assist you if you have a question"],
 ];
 
