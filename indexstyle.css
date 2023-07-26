@@ -332,3 +332,12 @@ html {
 		background:#044C6D;
 		transition:0.5s;
 	}
+
+    .justified-text {
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        color:purple;
+    }
