@@ -8,8 +8,20 @@ function getAnswer() {
     unknownResponse = true;
     // output
     for (var i = 0; i < matchedInput.length; i++) {
+		// special calculator variables
+        hasNumber = /\d/.test(Input); // test for input if it has number
+        modifiedInput = Input.replace(/[?a-zA-Z:., ]+/g, ""); // for calculator purpose
+        if (hasNumber && modifiedInput.match(/-?\d+\.?\d*\s*[-+*/%]\s*-?\d+\.?\d*/)) { // check if the input has number, if it has number, it will perform a calculation
+            try {
+                answer[0] = "The answer is: " + eval(modifiedInput);
+            } catch (error) {
+                unknownResponse = false;
+            }
+            unknownResponse = false;
+            break;
+        }
         // searching for output using input with unspace
-        if (Input.toLowerCase().match((unspacedmatchedInput[i]))) { // if response match the arrays
+        else if (Input.toLowerCase().match((unspacedmatchedInput[i]))) { // if response match the arrays
             let equivalentResponseSubArrayLength = equivalentResponse[i];
             let randomResponse = Math.floor(Math.random() * equivalentResponseSubArrayLength.length);
             // console.log("Matched Input: " + i);
@@ -21,10 +33,7 @@ function getAnswer() {
     }
     // unknown response
     if (unknownResponse == true) {
-        answer[0] = "I'm sorry, but i am unable to understand your question, if this issue still persist, contact us in our facebook page or you can ask another";
-        answer[1] = "I'm sorry, but i am unable to answer your question, if this issue still persist, contact us in our facebook page or you may ask another if there is any";
-        answer[2] = "I'm sorry, but i am unable to comprehend what you are saying, if this issue still persist, contact us in our facebook page or you may ask another question";
-        answer[3] = "I'm sorry, but i cannot understand your question, if this issue still persist, contact us in our facebook page or you may ask another question";
+        unknownResponseFunction();
     }
 }
 
