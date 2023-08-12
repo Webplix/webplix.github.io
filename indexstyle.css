@@ -7,6 +7,8 @@ html {
         font-size: 15pt;
         font-family: Lucida Fax;
         overflow-x: hidden;
+        background:#171717;
+        color:white;
     }
 
     #cover-photo-logo {
@@ -19,8 +21,13 @@ html {
 
     #footer {
         height: auto;
-        background: #6BACBF;
-        text-align: center;
+        text-align: right;
+        padding:1%;
+    }
+
+    #footer a {
+        color:white;
+        text-decoration:none;
     }
 
     .footer-row {
@@ -50,7 +57,6 @@ html {
 
     #pic-with-dark-bg {
         background: #171717;
-        display: flex;
         margin: 0;
         width: 100%;
         position: relative;
@@ -73,12 +79,20 @@ html {
     }
 
     #container {
-        display: flex;
+        display: none;
         flex-direction: column;
+        width:100%;
     }
 
     #logo-main-focus {
+        animation: webplixPicAnimation 1s ease-out;
         width: 60%;
+        height: auto;
+        transition:0.5s;
+    }
+
+    #logo-main-focus:hover {
+        width: 80%;
         height: auto;
     }
 
@@ -129,7 +143,7 @@ html {
 
     @media (max-width: 768px) {
         .header4 {
-            font-size: 10px;
+            font-size: 15px;
             font-weight: normal;
         }
     }
@@ -157,17 +171,23 @@ html {
     #inquire-button {
 		line-height:3;
 		border:solid;
-        padding: 3%;
         border-radius: 25px;
-        background: #044C6D;
+        background: #242323;
         color: white;
         cursor: pointer;
 		text-decoration:none;
+        font-family:Lucida Fax;
+    
+        transition: 0.5s;
     }
 
-    #inquire-button:hover {
-        background: black;
-        transition: 0.5s;
+    
+
+    #inquire-button:hover, #inquire-button:active{
+        background: #404040;
+        padding:2%;
+        margin:2%;
+        transform: translateY(-10px);
     }
 
     .center-h {
@@ -175,7 +195,6 @@ html {
     }
 
     #offers-area {
-        background: #044C6D;
         padding: 1%;
 		color:white;
     }
@@ -200,13 +219,10 @@ html {
     }
 
     #more-info {
-        background: #044C6D;
-        color: white;
         padding: 4%;
     }
 
     #additional-service {
-        background: #EBF6F7;
         text-align: right;
         padding: 4%;
     }
@@ -236,16 +252,79 @@ html {
     .chatbot-button:hover {
         cursor: pointer;
         filter: invert(100%);
+        padding:2%;
+    }
+
+    #menu-buttons {
+       text-align:center;
+       display:none;
+       padding: 1%;
+       position: sticky;
+       top: 0;
+       z-index:2;
+       background:#242323;
+       word-spacing:5px;
+       width:100vw;
+    }
+
+    #halfwidth {
+        margin:auto;
+        width:30%;
+    }
+
+    .menu-padding {
+        padding-left:5%;
+        padding-right:5%;
+        transition:0.5s;
+    }
+
+    .menu-padding:hover {
+       padding:3%;
+       background-color:#404040;
+    }
+
+    .resize-with-color {
         transition: 0.5s;
+    }
+
+    .resize-with-color:hover {
+        padding:5%;
+        background:#242323;
+    }
+
+    #menu-buttons a{
+        text-decoration:none;
+        font-weight:normal;
+        color:white;
+        cursor:pointer;
+    }
+
+    .more-hr {
+        width:90%;
+        margin:auto;
+    }
+
+    .limiter {
+        width:95vw;
+    }
+
+    .whole-padding {
+        padding:1%;
+        text-align:justify;
     }
 
     .chatbot-button {
         border-radius: 25px;
         padding: 1%;
-        background: #fafafa;
-        color: black;
+        background: #242323;
+        color: white;
         font-family: Lucida Fax;
         margin: 1%;
+        transition: 0.5s;
+    }
+
+    #inquiry {
+        animation: webplixInquiryAreaAnimation 1s ease-out;
     }
 
     input {
@@ -253,8 +332,8 @@ html {
         width: 73%;
         border-radius: 25px;
         padding: 1%;
-        background: #fafafa;
-        color: black;
+        background: #242323;
+        color: white;
     }
 
     .cover-wide-button {
@@ -262,7 +341,6 @@ html {
     }
 
     #chatbot {
-        display: none;
         padding: 1%;
         margin-top: 1%;
         margin-bottom: 1%;
@@ -278,7 +356,7 @@ html {
         margin: auto;
         line-height: 1.5;
         overflow-y: scroll;
-        height: 30vh;
+        height: 40vh;
         border: solid;
         border-radius: 25px;
     }
@@ -306,11 +384,8 @@ html {
       color: #8a04d1;
     }
 	
-	#sub-company {
-        display:none;
-		background:#EBF6F7;
-		color:black;
-		padding:2%;
+	#project-samples {
+		padding:1%;
 	}
 	
 	.design-box {
@@ -320,14 +395,31 @@ html {
 		margin:2%;
 	}
 	
-	.sub-companies-a {
-		color:black;
-		text-decoration:none;
-		margin:auto;
-		text-align:center;
-		width:50%;
+	#project-samples button {
+		background: #044C6D;
+        color:white;
+        text-decoration:none;
+        border:none;
+        border-radius:25px;
+        padding:2%;
+        width:80%;
+        cursor:pointer;
+        font-family:Lucida Fax;
+
+        transition:0.5s;
 	}
+
+    #project-samples button:hover {
+       background:#68A4BC;
+       color:black;
+       transform:translateY(-15px);
+    }
 	
+    .spacer {
+        padding:1%;
+        margin:auto;
+    }
+
 	.design-box:hover {
 		color:white;
 		background:#044C6D;
@@ -341,4 +433,137 @@ html {
 
     .footer-links {
         color:purple;
+    }
+
+    .left-templates {
+        animation: leftTemplatesAnimation 1s ease-out;
+    }
+
+    .right-templates {
+        animation: rightTemplatesAnimation 1s ease-out;
+    }
+
+    .sample-template-text {
+        animation: sampleTemplateTextAnimation 1s ease-out;
+    }
+
+    .animate-delay {
+        transition: 0.5s;
+        opacity:0;
+    }
+
+    .animate-delay:hover {
+        padding:10%;
+        background:#242323;
+    }
+
+    .more-info-text1 {
+       animation: moreText1Animation 2s ease-out;
+    }
+
+    .more-info-text2 {
+        animation: moreText2Animation 2s ease-out;
+     }
+
+    .more-info-text3 {
+        animation: moreText3Animation 2s ease-out;
+     }
+
+    @keyframes moreText1Animation {
+        0% {
+           transform: translateX(-50px);
+           opacity:0;
+        }
+        60% {
+           transform: translateX(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes moreText2Animation {
+        0% {
+           transform: translateX(-50px);
+           opacity:0;
+        }
+        80% {
+           transform: translateX(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes moreText3Animation {
+        0% {
+           transform: translateX(-50px);
+           opacity:0;
+        }
+        100% {
+           transform: translateX(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes webplixOfferListsTextAnimation {
+        from {
+           transform: translateY(-50px);
+           opacity:0;
+        }
+        to {
+           transform: translateY(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes sampleTemplateTextAnimation {
+        from {
+           transform: translateY(-50px);
+           opacity:0;
+        }
+        to {
+           transform: translateY(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes leftTemplatesAnimation {
+        from {
+           transform: translateX(-50px);
+           opacity:0;
+        }
+        to {
+           transform: translateX(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes rightTemplatesAnimation {
+        from {
+           transform: translateX(50px);
+           opacity:0;
+        }
+        to {
+           transform: translateX(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes webplixPicAnimation {
+        from {
+           transform: translateX(-100px);
+           opacity:0;
+        }
+        to {
+           transform: translateX(0px);
+           opacity:1;
+        }
+    }
+
+    @keyframes webplixInquiryAreaAnimation {
+        from {
+           transform: translateX(50px);
+           opacity:0;
+        }
+        to {
+           transform: translateX(0px);
+           opacity:1;
+        }
     }
