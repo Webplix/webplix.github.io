@@ -444,7 +444,9 @@ html {
     }
 
     .animate-delay:hover {
-        padding:10%;
+        padding-top:2%;
+        padding-bottom:2%;
+        margin-bottom:3%;
         background:#242323;
     }
 
@@ -557,4 +559,13 @@ html {
            transform: translateX(0px);
            opacity:1;
         }
+    }
+
+    #bot-features {
+        background:#242323;
+        text-align:center;
+        padding:4%;
+        width:80%;
+        margin:auto;
+        border-radius:25px;
     }
