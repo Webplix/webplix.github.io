@@ -88,12 +88,6 @@ html {
         animation: webplixPicAnimation 1s ease-out;
         width: 60%;
         height: auto;
-        transition:0.5s;
-    }
-
-    #logo-main-focus:hover {
-        width: 80%;
-        height: auto;
     }
 
     .center-all {
@@ -185,8 +179,6 @@ html {
 
     #inquire-button:hover, #inquire-button:active{
         background: #404040;
-        padding:2%;
-        margin:2%;
         transform: translateY(-10px);
     }
 
@@ -252,7 +244,6 @@ html {
     .chatbot-button:hover {
         cursor: pointer;
         filter: invert(100%);
-        padding:2%;
     }
 
     #menu-buttons {
