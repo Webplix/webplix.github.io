@@ -45,7 +45,7 @@ var speedInterval = 2.5;
     function OutPut() {
         getAnswer();
         randomArray();
-        document.getElementById("ChatOutput").innerHTML += "<br><a class='no-design-a bot'><b>Webplix</b></>: ";
+        document.getElementById("ChatOutput").innerHTML += "<br><a class='no-design-a bot'><b>Bot</b></>: ";
         currentIndex = 0;
         timer = setInterval(generateText, speedInterval);
     }
