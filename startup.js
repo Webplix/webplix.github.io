@@ -17,3 +17,15 @@
           }, delay * 1000);
         });
       });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const elements = document.querySelectorAll(".generalSlideLeft-delay");
+      
+        elements.forEach(element => {
+          const delay = parseFloat(element.getAttribute("delay"));
+          setTimeout(() => {
+            element.style.animation = "generalSlideLeftwithVisibility 1s ease-out forwards";
+            element.style.opacity = "1";
+          }, delay * 1000);
+        });
+      });
