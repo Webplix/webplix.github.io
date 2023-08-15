@@ -4,42 +4,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="startup.js"></script>
 
-    <title>Webplix Official Website</title>
+    <title>Webplix Templates</title>
     <link rel="icon" type="image/png" href="WebplixLogoTransparent.png" />
     <link rel="stylesheet" type="text/css" href="indexstyle.css">
 </head>
+<script>
+    function redirectToPage(pageName) {
+        // const url = `loading.html?page=${pageName}`; // cancelled because of adblocker
+        // window.location.href = url;
+        window.location.href = pageName;
+    }
+</script>
 <html>
 
 <body onload="con();">
     <noscript>
-        <h1 class="center-h" style="color:black;">Please allow this page to use JavaScript to use our service or your browser may be incompatible with our page</h1>
+        <h1 class="center-h" style="color:black;">Please allow this page to use JavaScript to use our service or your
+            browser may be incompatible with our page</h1>
     </noscript>
+
     <div id="menu-buttons">
         <div class="general-flexer-row center-all" id="halfwidth">
             <a title="Main Page (Home)" href="/" class="general-flex-item header3 menu-padding">Home</a>
-            <a title="Webplix Legal Documentation" href="Webplix_Legal_Documentation.pdf" target="_blank" class="general-flex-item header3 menu-padding">Legal</a>
-            <a title="DTI Registered Permit" href="https://bnrs.dti.gov.ph/search?keyword2=&keyword=webplix+web+development+services&criteria=exact&sort_by=business_name&sort_order=asc" target="_blank" class="general-flex-item header3 menu-padding">DTI</a>
+            <a title="Webplix Legal Documentation" href="Webplix_Legal_Documentation.pdf" target="_blank"
+                class="general-flex-item header3 menu-padding">Legal</a>
+            <a title="DTI Registered Permit"
+                href="https://bnrs.dti.gov.ph/search?keyword2=&keyword=webplix+web+development+services&criteria=exact&sort_by=business_name&sort_order=asc"
+                target="_blank" class="general-flex-item header3 menu-padding">DTI</a>
         </div>
     </div>
     <div id="container">
         <div id="title-template">
             <h1 class="header1 generalSlideLeftwithVisibility center-h">Choose Template</h1>
-            <div class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.2">
+            <div onclick="redirectToPage('templates/blog.html');" class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.2">
                 <h1 class="header1">Blog Website</h1>
             </div>
-            <div class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.4">
+            <div onclick="redirectToPage('templates/business.html');" class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.4">
                 <h1 class="header1">Business Website</h1>
             </div>
-            <div class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.6">
+            <div onclick="redirectToPage('templates/portfolio.html');" class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.6">
                 <h1 class="header1">Portfolio Website</h1>
             </div>
-            <div class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.8">
+            <div onclick="redirectToPage('templates/landing.html');" class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.8">
                 <h1 class="header1">Landing Page</h1>
             </div>
-            <div class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="1">
+            <div onclick="redirectToPage('templates/educational.html');" class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="1">
                 <h1 class="header1">Educational Website</h1>
             </div>
-            <div class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="1.2">
+            <div onclick="redirectToPage('templates/magazinenews.html');" class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="1.2">
                 <h1 class="header1">Magazine / News Website</h1>
             </div>
         </div>
