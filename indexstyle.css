@@ -20,12 +20,18 @@ html {
     }
 
     #footer {
+        background:#242323;
         height: auto;
-        text-align: right;
-        padding:1%;
+        text-align: center;
+        padding:2%;
+        line-height:1.5;
     }
 
     #footer a {
+        text-decoration:none;
+    }
+
+    .a-no-design {
         color:white;
         text-decoration:none;
     }
@@ -187,7 +193,7 @@ html {
     }
 
     #offers-area {
-        padding: 1%;
+        padding: 1% 1% 5% 1%;
 		color:white;
     }
 
@@ -217,11 +223,6 @@ html {
     #additional-service {
         text-align: right;
         padding: 4%;
-    }
-
-    .repair-logo {
-        width: 100%;
-        height: auto;
     }
 
     .round-border {
@@ -279,10 +280,103 @@ html {
         padding:2%;
     }
 
-    .resize-with-color:hover {
+    .resize-with-color:focus-visible, .resize-with-color:hover {
         padding-top:5%;
         padding-bottom:5%;
         background:#242323;
+    }
+
+    #chatbuttoncpmode {
+        display:none;
+    }
+
+    .more-info-area-pictures {
+        align-items:center;
+        width:30vw;
+        height:auto;
+        border:solid 50px #6BACBF;
+    }
+
+    @media only screen and (max-width: 768px) {
+        #chatbuttoncpmode {
+            display:block;
+        }
+        #chatbuttonpcmode {
+            display:none;
+        }
+      }
+
+    @media only screen and (max-width: 768px) {
+        .an-responsive {
+          text-align:left;
+          padding:2%;
+          flex-direction: column;
+        }
+      }
+
+    @media only screen and (max-width: 768px) {
+        #menu-buttons {
+          padding-top:3%;
+          padding-bottom:3%;
+        }
+      }
+
+    @media only screen and (max-width: 768px) {
+        .an-responsive-intro {
+          text-align:center;
+          padding:2%;
+          flex-direction: column;
+        }
+      }
+
+    @media only screen and (max-width: 768px) {
+        .an-responsive-general-center-h {
+          text-align:center;
+        }
+      }
+      
+    #whatiswebplix {
+        background:white;
+        color:#171717;
+        padding:5%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:auto;
+    }
+
+    #whywebplix {
+        padding:5%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:auto;
+    }
+
+    #howtoinquire {
+        background:white;
+        color:#171717;
+        padding:5%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin:auto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .an-general-responsive-flex-column {
+            flex-direction:column;
+        }
+        .sub-info-area {
+            padding-top:0 !important;
+        }
+        .more-info-area-pictures {
+            border:solid 10px #6BACBF;
+        }
+      }
+
+    .sub-info-area {
+        padding-top:15%;
     }
 
     #menu-buttons a{
@@ -309,7 +403,7 @@ html {
     .chatbot-button {
         border-radius: 25px;
         padding: 1%;
-        background: #242323;
+        background: #404040;
         color: white;
         font-family: Lucida Fax;
         margin: 1%;
@@ -317,6 +411,7 @@ html {
     }
 
     #inquiry {
+        text-align:left;
         animation: webplixInquiryAreaAnimation 1s ease-out;
     }
 
@@ -325,7 +420,7 @@ html {
         width: 73%;
         border-radius: 25px;
         padding: 1%;
-        background: #242323;
+        background: #404040;
         color: white;
     }
 
@@ -334,12 +429,11 @@ html {
     }
 
     #chatbot {
-        padding: 1%;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        background:#242323;
+        padding-bottom: 5%;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 100%;
         overflow-y: auto;
     }
 
@@ -564,11 +658,8 @@ html {
     }
 
     #bot-features {
-        background:#242323;
-        text-align:center;
+        text-align:left;
         padding:4%;
-        width:80%;
-        margin:auto;
         border-radius:25px;
     }
 
