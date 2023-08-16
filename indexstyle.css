@@ -702,6 +702,12 @@ html {
     }
 
     .generalSlideLeft-delay:hover {
+        filter: brightness(130%);
         padding-top:4%;
         padding-bottom:4%;
+    }
+
+    .template-picture {
+        width:30%;
+        height:auto;
     }
