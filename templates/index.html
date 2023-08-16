@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../startup.js"></script>
+
+    <title>Webplix Templates</title>
+    <link rel="icon" type="image/png" href="../WebplixLogoTransparent.png" />
+    <link rel="stylesheet" type="text/css" href="../indexstyle.css">
+</head>
+<script>
+    function redirectToPage(pageName) {
+        // const url = `loading.html?page=${pageName}`; // cancelled because of adblocker
+        // window.location.href = url;
+        window.location.href = pageName;
+    }
+</script>
+<html>
+
+<body onload="con();">
+    <noscript>
+        <h1 class="center-h" style="color:black;">Please allow this page to use JavaScript to use our service or your
+            browser may be incompatible with our page</h1>
+    </noscript>
+
+    <div id="menu-buttons">
+        <div class="general-flexer-row center-all" id="halfwidth">
+            <a title="Main Page (Home)" href="/" class="general-flex-item header3 menu-padding">Home</a>
+            <a title="Webplix Legal Documentation" href="Webplix_Legal_Documentation.pdf" target="_blank"
+                class="general-flex-item header3 menu-padding">Legal</a>
+            <a title="DTI Registered Permit"
+                href="https://bnrs.dti.gov.ph/search?keyword2=&keyword=webplix+web+development+services&criteria=exact&sort_by=business_name&sort_order=asc"
+                target="_blank" class="general-flex-item header3 menu-padding">DTI</a>
+        </div>
+    </div>
+    <div id="container">
+        <div id="title-template">
+            <h1 class="header1 generalSlideLeftwithVisibility center-h">Choose Template</h1>
+            <div onclick="redirectToPage('-article/');" class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.1">
+                <h1 class="header1">Article Website</h1>
+                <img src="article/article.jpg" class="template-picture">
+                <h1 class="header3">A platform for sharing informative articles on various topics, featuring clear organization and engaging content layouts.</h1>
+            </div>
+            <div onclick="redirectToPage('blog/');" class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.2">
+                <h1 class="header1">Blog Website</h1>
+                <img src="blog/blog.jpg" class="template-picture">
+                <h1 class="header3">A personal or group space for sharing thoughts and experiences, with a focus on chronological blog posts and interactive engagement.</h1>
+            </div>
+            <div onclick="redirectToPage('business/');" class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.3">
+                <h1 class="header1">Business Website</h1>
+                <img src="business/business.jpg" class="template-picture">
+                <h1 class="header3"> digital storefront for companies, presenting products, services, and contact information with a professional design and clear calls to action.</h1>
+            </div>
+            <div onclick="redirectToPage('portfolio/');" class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.4">
+                <h1 class="header1">Portfolio Website</h1>
+                <img src="portfolio/portfolio.jpg" class="template-picture">
+                <h1 class="header3">A showcase for creative professionals to display their work, featuring visual galleries and interactive portfolios to impress potential clients.</h1>
+            </div>
+            <div onclick="redirectToPage('educational/');" class="cursor-pointer lighter-bg padding-2p generalSlideLeft-delay center-h" delay="0.5">
+                <h1 class="header1">Educational Website</h1>
+                <img src="educational/educational.jpg" class="template-picture">
+                <h1 class="header3">An online learning hub for courses, tutorials, and resources, designed for educators and learners with structured content delivery.</h1>
+            </div>
+            <div onclick="redirectToPage('magazinenews/');" class="cursor-pointer padding-2p generalSlideLeft-delay center-h" delay="0.6">
+                <h1 class="header1">Magazine / News Website</h1>
+                <img src="magazinenews/magazinenews.jpg" class="template-picture">
+                <h1 class="header3">A dynamic platform for media outlets to deliver news and articles with visually engaging layouts, covering a range of topics for broad audiences.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <a class="header3" href="mailto:webplix.ph@gmail.com">Email</a> &nbsp
+        <a class="header3" href="https://facebook.com/websiteplix">Facebook</a>
+        <br>
+        <a class="header3 a-no-design">Image Copyright: All images on this website are original creations, handcrafted by us and not sourced from the internet.</a><br>
+        <br>
+        <a class="header3 a-no-design">Webplix CEO and Founder: Khian Victory D. Calderon</a>
+        <br>
+        <br>
+        <a class="header3 a-no-design">2023 All rights reserved.</a>
+    </div>
+</body>
+
+</html>
+
+<!--
+
+Color palete:
+
+Regal Blue: #044C6D
+Black Squeeze: #EBF6F7
+Glacier: #6BACBF
+Hippie Blue: #68A4BC
+Black: #171717
+Lighter Black: #242323
+Even Lighter Black: #404040
+
+-->
