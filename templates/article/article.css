@@ -1,0 +1,101 @@
+body {
+    background: #f2f2f2;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size:15pt;
+    font-family:Georgia;
+}
+
+#container {
+    color: #171717;
+    padding:1%;
+}
+
+#article-container {
+    border-left:solid black;
+    padding:1%;
+    width:60%;
+    margin:auto;
+}
+
+#navigation-menu {
+    background:#e8e8e8;
+    position:sticky;
+    top:0;
+    width:100vw;
+}
+
+#menu-buttons {
+    text-align:center;
+    width:40%;
+    margin-left:auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-buttons {
+        text-align:center;
+        width:70%;
+        margin:auto;
+    }
+}
+
+.menu-buttons {
+    padding:2%;
+}
+
+.menu-buttons:hover, .menu-buttons:active {
+    background:#cee000;
+}
+
+/*
+Below are general items
+*/
+
+.cursor-pointer {
+    cursor:pointer;
+}
+
+.general-flexer-row {
+    display:flex;
+    flex-direction:row;
+}
+
+.general-flexer-column {
+    display:flex;
+    flex-direction:column;
+}
+
+.general-flex-item {
+    flex:1;
+}
+
+@media (min-width: 769px) {
+    .font1 {
+        font-size:45px;
+    }
+    .font2 {
+        font-size:35px;
+    }
+    .font3 {
+        font-size:25px;
+    }
+    .font4 {
+        font-size:18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .font1 {
+        font-size:30px;
+    }
+    .font2 {
+        font-size:25px;
+    }
+    .font3 {
+        font-size:18px;
+    }
+    .font4 {
+        font-size:14px;
+    }
+}
