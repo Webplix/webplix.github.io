@@ -60,7 +60,7 @@ var matchedInput = [
     "fee to pay|fees|dif fee|what to pay",
     "web timeline|timeline web|how long web|web how long",
     
-    "what market strategy|what market tactic|how market|how tactic|how improve|how advertise",
+    "what market strateg|what market tactic|how market|how tactic|how improve|how advertise",
 
     "how are you|you ok",
     "can you help",
