@@ -1,5 +1,15 @@
 // Distribution and modification of this code is not allowed and will be punish according to law in violation of intellectual property
 var matchedInput = [
+    "what template|template type|type template|which template|dif template|template dif",
+    "dti not working|why dti not|dti error",
+    "how answer you|how you answer|you answer how|answer you how",
+    "you offline|work offline",
+    "why 3rd party|why third party|why webhosting",
+    "are you hiring|for hire|accept hire",
+
+    "document requirement|require document",
+    "requirement",
+
     "why website|purpose website|website purpose",
     "what you do for me",
     "how you process",
@@ -34,7 +44,6 @@ var matchedInput = [
     "domain free|free domain",
 
     "web kind|kind web|which web|web which",
-    "what website",
     "kind question|question kind",
     "comany hour|hour company|business hour|hour business|when avail|when can i",
     "where lucena|lucena locat|locat lucena",
@@ -51,6 +60,8 @@ var matchedInput = [
     "fee to pay|fees|dif fee|what to pay",
     "web timeline|timeline web|how long web|web how long",
     
+    "what market strategy|what market tactic|how market|how tactic|how improve|how advertise",
+
     "how are you|you ok",
     "can you help",
     "copyright notice",
@@ -77,6 +88,9 @@ var matchedInput = [
     "maintenance|maintaining",
     "complain",
     "feedback|recommend|suggestion|improvement",
+
+    "you state|you said",
+    "what website",
 
     "webplix full name|webplix formal name|webplix register name|webplix name register|name register webplix|register name webplix",
     "webplix",
