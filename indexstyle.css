@@ -1,4 +1,4 @@
-html {
+    html {
         scroll-behavior: smooth;
     }
 
@@ -9,6 +9,10 @@ html {
         overflow-x: hidden;
         background:#171717;
         color:white;
+    }
+
+    #every-display {
+        display:none;
     }
 
     #cover-photo-logo {
@@ -85,7 +89,6 @@ html {
     }
 
     #container {
-        display: none;
         flex-direction: column;
         width:100%;
     }
@@ -181,7 +184,35 @@ html {
         transition: 0.5s;
     }
 
+    #menu-cp {
+        z-index:7;
+        position:fixed;
+        left:-300px;
+        background:#242323;
+        color:white;
+        height:100vh;
+        text-align: center;
+        width:180px;
+        transition: left 0.5s ease-in-out;
+    }
+
+    #menu-cp span, #menu-cp a {
+        font-size:15pt;
+        color:white;
+        margin:2%;
+        text-decoration:none;
+    }
     
+    #menu-icon {
+        display:none;
+        position:fixed;
+        left:2vw;
+        top:2vh;
+        font-weight:bold;
+        color:white;
+        font-size:30pt;
+        cursor:pointer;
+    }
 
     #inquire-button:hover, #inquire-button:active{
         background: #404040;
@@ -249,7 +280,6 @@ html {
 
     #menu-buttons {
        text-align:center;
-       display:none;
        padding: 1%;
        position: sticky;
        top: 0;
@@ -711,4 +741,14 @@ html {
     .template-picture {
         width:30%;
         height:auto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        #menu-buttons {
+            display:none;
+        }
+        #menu-icon {
+            display:block;
+            z-index:5;
+        }
     }
