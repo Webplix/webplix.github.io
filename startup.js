@@ -1,6 +1,5 @@
     function con() {
-        document.getElementById("container").style.display = "flex";
-        document.getElementById("menu-buttons").style.display = "block";
+        document.getElementById("every-display").style.display = "block";
         document.getElementById("ChatOutput").innerHTML += "<a class='no-design-a bot'><b>Bot</b></>: ";
         currentIndex = 0;
         timer = setInterval(generateText, speedInterval);
