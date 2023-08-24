@@ -186,6 +186,7 @@
 
     #menu-cp {
         z-index:7;
+        display:none;
         position:fixed;
         left:-300px;
         background:#242323;
@@ -752,5 +753,8 @@
         #menu-icon {
             display:block;
             z-index:5;
+        }
+        #menu-cp {
+            display:block;
         }
     }
