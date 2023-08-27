@@ -11,6 +11,41 @@
         color:white;
     }
 
+    #fixed-ads {
+        position: fixed;
+        bottom: 2vh;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 1%;
+        width: 80%;
+        height: 30px;
+        background-image: url("https://aspirewebplix.github.io/AspireCover.png");
+        background-size: cover;
+        background-position: center 48%;
+        border-top: 1px solid #ddd;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        border: solid 1px black;
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        z-index:10;
+        cursor:pointer;
+    }
+    
+    .close-ad {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        margin-top:-0.7%;
+        margin-right:-0.3%;
+        font-size: 15pt;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
     #every-display {
         display:none;
     }
@@ -756,5 +791,10 @@
         }
         #menu-cp {
             display:block;
+        }
+        .close-ad {
+            font-size:10pt;
+            margin-top:-3%;
+            margin-right:-2%;
         }
     }
