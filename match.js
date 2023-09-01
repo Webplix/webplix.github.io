@@ -7,6 +7,9 @@ var matchedInput = [
     "why 3rd party|why third party|why webhosting",
     "are you hiring|for hire|accept hire",
 
+    "aspire what|what aspire",
+    "aspire link|aspire url|link aspire|url aspire",
+    "aspire why|why aspire",
     "document requirement|require document",
     "requirement",
 
