@@ -7,6 +7,9 @@ var equivalentResponse = [
     ["Using 3rd party webhosting services provides cheap, and remote access to any locations which give our developer's ease of access if a website is needed to be updated"],
     ["I'm sorry but, regarding hiring of employees or staff of webplix too sensitive for me to cover, you may ask at our facebook page regarding the topic"],
 
+    ["ASPIRE is a website created and currently owned by webplix. It is a website that recommends an individual what career is business is best for them. Visit [a href='https://aspirewebplix.github.io/']this[/a] to know more about ASPIRE."],
+    ["Visit [a href='https://aspirewebplix.github.io/']this[/a] to know more about ASPIRE."],
+    ["I'm sorry but i don't have such information, you may visit [a href='https://aspirewebplix.github.io/']ASPIRE[/a] to know more about it."],
     ["Regarding document requirements, we recommend you to read our LEGAL for more details. Everything is stated in our Terms and Conditions and Privacy Policy which is in our Legal"],
     ["Can you be more specific of what requirement you are referring to? Thank you","Regarding our requirements, you may see our legal's terms and conditions and privacy policy for more details"],
 
