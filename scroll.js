@@ -1,0 +1,1 @@
+function scrollToBottom(){let t=document.getElementById("ChatOutput");t.scrollTop=t.scrollHeight}

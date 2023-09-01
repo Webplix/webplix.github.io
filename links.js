@@ -1,0 +1,1 @@
+var facebookPage="https://www.facebook.com/websiteplix/",gMailTo="mailto:webplix.ph@gmail.com",mail="webplix.ph@gmail.com",kTwitter="https://twitter.com/KhianVictory",kInstagram="https://www.instagram.com/khiandelapena/",kYouTube="https://www.youtube.com/KhianVictoryDCalderon?sub_confirmation=1",kTikTok="https://www.tiktok.com/@khian.vc";function goto(t){window.location.href=t}

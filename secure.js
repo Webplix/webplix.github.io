@@ -1,0 +1,1 @@
+document.onkeydown=function(e){if(123==event.keyCode||e.ctrlKey&&e.shiftKey&&73==e.keyCode||e.ctrlKey&&e.shiftKey&&67==e.keyCode||e.ctrlKey&&e.shiftKey&&74==e.keyCode||e.ctrlKey&&85==e.keyCode||e.ctrlKey&&83==e.keyCode)return!1},console.log("WARNING: Distributing these codes via unauthorized means will be a violation of intellectual property");

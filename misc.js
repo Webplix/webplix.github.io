@@ -1,0 +1,1 @@
+function hidemenu(){document.getElementById("menu-cp").style.left="-300px"}function showmenu(){document.getElementById("menu-cp").style.left="0px"}function closefixedad(e){e.stopPropagation(),document.getElementById("fixed-ads").style.display="none"}function handleAdClick(e){!e.target.classList.contains("close-ad")&&(window.location.href="https://aspirewebplix.github.io/")}
