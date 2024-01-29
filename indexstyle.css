@@ -12,6 +12,7 @@
     }
 
     #fixed-ads {
+        display:none;
         position: fixed;
         bottom: 2vh;
         left: 0;
